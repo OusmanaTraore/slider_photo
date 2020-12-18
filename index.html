@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="photos">
+        <img src="/slider_photo/image/building.jpg" style="width: 100%" />
+        <div class="text">Building</div>
+      </div>
+
+      <div class="photos">
+        <img src="/slider_photo/image/lune.jpg" style="width: 100%" />
+        <div class="text">Lune</div>
+      </div>
+
+      <div class="photos">
+        <img src="/slider_photo/image/montage.jpg" style="width: 100%" />
+        <div class="text">Montagne</div>
+      </div>
+      <div class="photos">
+        <img src="/slider_photo/image/fleur.jpg" style="width: 100%" />
+        <div class="text">Fleur</div>
+      </div>
+      <div class="photos">
+        <img src="/slider_photo/image/mer.jpg" style="width: 100%" />
+        <div class="text">Mer</div>
+      </div>
+
+      <a class="precedent" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="suivant" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="cercle" onclick="currentSlide(1)"></span>
+      <span class="cercle" onclick="currentSlide(2)"></span>
+      <span class="cercle" onclick="currentSlide(3)"></span>
+    </div>
+  </body>
+</html>
